@@ -1,6 +1,6 @@
 const std = @import("std");
 const gl = @import("zgl");
-const lib = @import("vizzbuzz_lib");
+const lib = @import("sdl2_opengl_zig_lib");
 
 const c = @cImport({
     @cInclude("SDL2/SDL.h");
