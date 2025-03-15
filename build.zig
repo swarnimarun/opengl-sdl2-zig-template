@@ -76,6 +76,7 @@ pub fn build(b: *std.Build) void {
     });
     const sdl = sdl_dep.artifact("SDL2");
     exe.linkLibrary(sdl);
+    lib.linkLibrary(sdl);
     // const header_tree = sdl.installed_headers_include_tree orelse @panic("?");
     // exe.addIncludePath(header_tree.getDirectory().path(b, "SDL2"));
 
