@@ -24,7 +24,7 @@
     // original project's identity. Thus it is recommended to leave the comment
     // on the following line intact, so that it shows up in code reviews that
     // modify the field.
-    .fingerprint = 0xaefd04ec5f8df0be, // Changing this has security and trust implications.
+    .fingerprint = 0xa581275ac9824bbf, // Changing this has security and trust implications.
 
     // Tracks the earliest Zig version that the package considers to be a
     // supported use case.
@@ -41,7 +41,7 @@
             .hash = "zgl-1.1.0-p_NpAH2rCQCau2UOYRdNu2eC-_T4CMWcgpqpv8REofLl",
         },
         .SDL = .{
-            .url = "https://github.com/allyourcodebase/SDL/archive/refs/heads/main.zip",
+            .url = "https://github.com/allyourcodebase/SDL/archive/6f426d8f1bfbc796ff41e6fda2890790ed34f2c7.zip",
             .hash = "SDL-2.32.2-JToi31GUEgGOf7m8tPCktmPE1Z0cO8bfst98IDm6xJw4",
         },
     },
@@ -51,6 +51,6 @@
         "src",
         // For example...
         //"LICENSE",
-        //"README.md",
+        "README.md",
     },
 }
